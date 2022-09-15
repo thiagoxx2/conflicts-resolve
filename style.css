@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    width: 100vw;
+    height: 35rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #E1DEE3;
+    border-radius: 9px;
+    width: 25rem;
+    height: 20em;
+    margin: 3px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8em;
+}
+
+.corpo .item {
+    display: flex;
+    flex-direction: column;
+    height: 2.7rem;
+    padding: 0.8rem;
+    border-radius: 7px;
+    background-color: #0091AD;
+    color: #E1DEE3;
+    margin: 3px 4px;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 32rem;
+        height: 20rem;
+    }
+}
